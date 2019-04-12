@@ -14,7 +14,7 @@ public class Commandantiafkfishing implements CommandExecutor {
 
 	@Override
 	public boolean onCommand( CommandSender sender, Command command, String label, String[] args ) {
-		if ( !sender.hasPermission( "antiafkfishin.reload" ) ) {
+		if ( !sender.hasPermission( "antiafkfishing.reload" ) ) {
 			this.antiAfkFishing.getConfig().getStringList( "No-Permission" ).forEach( sender::sendMessage );
 			return true;
 		}
