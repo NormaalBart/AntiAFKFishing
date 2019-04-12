@@ -1,0 +1,29 @@
+# The radius of which the plugin will search for blacklisted items while fishing
+# Recommended radius is 4 or 5, setting it higher may impact performance.
+Block-Radius: 4
+
+# You can choose from these materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html'
+# Note: these materials are 1.13 materials. When using 1.12 or lower, you have to have other names most likely. 
+#       This plugin will work in 1.12 or lower, but the material names have to be different !
+Blacklisted-Items:
+  - "NOTE_BLOCK"
+  - "IRON_DOOR"
+  - "TRIPWIRE_HOOK"
+  - "ACACIA_PRESSURE_PLATE"
+  - "BIRCH_PRESSURE_PLATE"
+  - "DARK_OAK_PRESSURE_PLATE"
+  - "HEAVY_WEIGHTED_PRESSURE_PLATE"
+  - "JUNGLE_PRESSURE_PLATE"
+  - "LIGHT_WEIGHTED_PRESSURE_PLATE"
+  - "OAK_PRESSURE_PLATE"
+  - "SPRUCE_PRESSURE_PLATE"
+  - "STONE_PRESSURE_PLATE"
+
+Reload:
+  - "&aPlugin reloaded !"
+
+No-Permission: 
+  - "&7You do not have permission to execute this command !"
+
+Message:
+  - "&e[Server] &cAFK Fishing is not allowed"

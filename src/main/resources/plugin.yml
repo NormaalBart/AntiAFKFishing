@@ -1,0 +1,8 @@
+name: AntiAFKFishing
+version: 1.0.1
+author: Bart
+main: me.bartvv.antiafkfishing.AntiAfkFishing
+api-version: 1.13
+commands:
+  antiafkfishing:
+    description: "Main command."
