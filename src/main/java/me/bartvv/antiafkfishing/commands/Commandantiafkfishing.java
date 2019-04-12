@@ -23,5 +23,4 @@ public class Commandantiafkfishing implements CommandExecutor {
 		this.antiAfkFishing.getConfig().getStringList( "Reload" ).forEach( sender::sendMessage );
 		return true;
 	}
-
 }
